@@ -13,6 +13,7 @@
 		707A607315B0E18E006C998E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 707A607115B0E18E006C998E /* Credits.rtf */; };
 		707A607615B0E18E006C998E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 707A607515B0E18E006C998E /* AppDelegate.m */; };
 		707A607915B0E18F006C998E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 707A607715B0E18F006C998E /* MainMenu.xib */; };
+		707A608015B0E4AA006C998E /* Test Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 707A607F15B0E4AA006C998E /* Test Window.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,15 @@
 		707A606515B0E18E006C998E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		707A606615B0E18E006C998E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		707A606715B0E18E006C998E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		707A606A15B0E18E006C998E /* Test Interface Builder-Info.plist */ = {isa = PBXFileReference; path = "Test Interface Builder-Info.plist"; sourceTree = "<group>"; };
+		707A606A15B0E18E006C998E /* Test Interface Builder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test Interface Builder-Info.plist"; sourceTree = "<group>"; };
 		707A606C15B0E18E006C998E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		707A606E15B0E18E006C998E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		707A607015B0E18E006C998E /* Test Interface Builder-Prefix.pch */ = {isa = PBXFileReference; path = "Test Interface Builder-Prefix.pch"; sourceTree = "<group>"; };
+		707A607015B0E18E006C998E /* Test Interface Builder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test Interface Builder-Prefix.pch"; sourceTree = "<group>"; };
 		707A607215B0E18E006C998E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		707A607415B0E18E006C998E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		707A607415B0E18E006C998E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		707A607515B0E18E006C998E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		707A607815B0E18F006C998E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		707A607F15B0E4AA006C998E /* Test Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Test Window.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				707A607415B0E18E006C998E /* AppDelegate.h */,
 				707A607515B0E18E006C998E /* AppDelegate.m */,
 				707A607715B0E18F006C998E /* MainMenu.xib */,
+				707A607F15B0E4AA006C998E /* Test Window.xib */,
 				707A606915B0E18E006C998E /* Supporting Files */,
 			);
 			path = "Test Interface Builder";
@@ -156,6 +159,7 @@
 				707A606D15B0E18E006C998E /* InfoPlist.strings in Resources */,
 				707A607315B0E18E006C998E /* Credits.rtf in Resources */,
 				707A607915B0E18F006C998E /* MainMenu.xib in Resources */,
+				707A608015B0E4AA006C998E /* Test Window.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
